@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 require 'pry'
 def badge_maker(name)
   "Hello, my name is #{name}."
@@ -25,4 +26,16 @@ def printer(attendees)
 
 
 
+=======
+def badge_maker(name)
+  return "Hello, my name is #{name}."
+end
+
+def batch_badge_creator(attendees)
+  attendees.each{|badges| "Hello, my name is #{badges}."}
+
+end
+
+def assign_rooms(attendees, room)
+>>>>>>> 4f23524e3bbd79b726bc1dcadd44f21e816fbb53
 end
